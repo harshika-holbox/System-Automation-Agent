@@ -1,0 +1,12 @@
+openai
+python-dotenv
+# The strands-agents library provides strands_tools.use_computer
+# The version below is a placeholder; you might need to adjust based on your installation
+# or if you installed it via a specific source (e.g., git repo)
+strands-agents
+# The strands_tools.use_computer module internally relies on these for screenshot, OCR, and GUI interaction.
+# While they might be pulled in by strands-agents, it's good practice to list them if you use their functionalities directly or if strands-agents doesn't pin specific versions.
+pyautogui
+Pillow
+opencv-python
+pytesseract
